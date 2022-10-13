@@ -1,0 +1,207 @@
+:root{
+    --white-color:white;
+}
+#home{
+background-image: url('../img/hero-bg.jpg');
+background-size: cover;
+background-position: center center;
+color:var(--white-color);
+background-attachment: fixed;
+
+}
+body{
+    background-color: rgb(233, 233, 233);
+}
+#home a{
+    color: var(--white-color);
+    text-decoration: none;
+}
+.nav-item  {
+    font-size: 16px;
+    font-weight: 600;
+    padding: 0;
+    white-space: nowrap;
+    transition: 0.3s;
+    letter-spacing: 0.4px;
+    text-transform: uppercase;
+    position: relative;
+}
+ .activee::after{
+    content: "";
+position: absolute;
+height: 3px;
+left: 15px;
+top: 30px;
+width: 60%;
+    background-color: #fff;
+}
+
+.header-content{
+    text-align: center;
+  font-weight: 600;
+  font-size: 2.5rem;
+
+}
+.header-content .after::after{
+    content: "|";
+    animation-name: moveletters;
+    animation-duration: 7s;
+}
+
+@keyframes moveletters{
+    0%{content: "D|";}
+    2%{content: "De|";}
+    4%{content: "Des|";}
+    6%{content: "Desi|";}
+    8%{content: "Desig|";}
+    10%{content: "Design|";}
+    12%{content: "Designe|";}
+    14%{content: "Designer|";}
+    16%{content: "Designe|";}
+    18%{content: "Design|";}
+    20%{content: "Desig|";}
+    22%{content: "Desi|";}
+    24%{content: "Des|";}
+    26%{content: "De|";}
+    28%{content: "D|";}
+    30%{content: "a F|";}
+    32%{content: "a Fr|";}
+    33%{content: "a Fre|";}
+    34%{content: "a Free|";}
+    35%{content: "a Freel |";}
+    36%{content: "a Freela |";}
+    37%{content: "a Freelan|";}
+    38%{content: "a Freelan|";}
+    39%{content: "a Freelanc|";}
+    40%{content: "a Freelance|";}
+    41%{content: "a Freelancer|";}
+    42%{content: "a Freelance|";}
+    43%{content: "a Freelanc|";}
+    44%{content: "a Freelan|";}
+    45%{content: "a Freela|";}
+    46%{content: "a Freel|";}
+    47%{content: "a Free|";}
+    48%{content: "a Fre|";}
+    49%{content: "a Fr|";}
+    50%{content: "a F|";}
+    51%{content: "a|";}
+    52%{content: "a D |";}
+    53%{content: "a De |";}
+    54%{content: "a Des |";}
+    55%{content: "a Desi |";}
+    56%{content: "a Desig |";}
+    57%{content: "a Design |";}
+    58%{content: "a Designe |";}
+    59%{content: "a Designer |";}
+}
+.title-left{
+position: relative;
+
+}
+.title-left::after{
+    position: absolute;
+    left: 0;
+    content: "";
+    background-color: #0078ff;
+    width: 10%;
+    height: 3px;
+    bottom: -12px;
+}
+.title-service {
+    font-size: 5rem;
+    font-weight: bold;
+ }
+ .card-body{
+    text-align: center;
+ }
+ .service-box {
+    background-color: #fff;
+    padding: 2.5rem 1.3rem;
+    border-radius: 1rem;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+.ico-circle{
+    height: 100px;
+    width: 100px;
+    font-size: 2rem;
+    border-radius: 50%;
+    line-height: 1.55;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 0 10px #0078ff;
+}
+.ico-circle i {
+
+    font-size: 40px;
+}
+.bg-blue{
+    background-image: url('../img/counters-bg.jpg');
+    background-attachment: fixed;
+}
+.bg-bluee{
+    background-color: #0077ff77;
+
+}
+.counter-num{
+    text-align: center;
+    color: white;
+    
+}
+.ico-circlewhite {
+    height: 90px;
+    width: 90px;
+    font-size: 2rem;
+    border-radius: 50%;
+    line-height: 1.55;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 0 10px #fff;
+}
+.fa-circle-plus{
+    color: #0078ff;
+    font-size: 2rem;
+    border-radius: 50%;
+
+}
+.cire{
+    width: 100px;
+}
+.bgimg{
+    background-image: url('../img/overlay-bg.jpg');
+    background-size: cover;
+background-position: center center;
+background-attachment: fixed;
+}
+.blueimg{
+    background-color: #0077ff8c;
+}
+.bluediv {
+    background-color: #0078ff;
+    display: inline;
+    position: absolute;
+    top: -12px;
+}
+.bgwhite{
+    background-color: rgb(255, 255, 255);
+}
+.php-email-form button[type=submit] {
+
+background: #0078ff;
+    border: 0;
+    padding: 10px 24px;
+    color: #fff;
+    transition: 0.4s;
+}
+footer {
+    text-align: center;
+    color: #fff;
+    padding: 25px 0;
+    background: #0062d3;
+}
