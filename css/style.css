@@ -44,8 +44,8 @@ width: 60%;
 }
 .header-content .after::after{
     content: "|";
-    animation-name: moveletters;
-    animation-duration: 7s;
+    animation: moveletters 10s infinite;
+
 }
 
 @keyframes moveletters{
